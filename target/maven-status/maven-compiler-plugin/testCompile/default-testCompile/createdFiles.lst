@@ -1,0 +1,8 @@
+com\nmims\utilities\Reporting.class
+com\nmims\pageObject\LoginPageObject.class
+com\nmims\pageObjectMethod\LoginPageObjectMethod.class
+com\nmims\TestCases\BaseClass.class
+com\nmims\utilities\ReadConfig.class
+com\nmims\TestCases\TC_001_Login.class
+com\nmims\utilities\XLUtils.class
+com\nmims\TestCases\TC_LoginDDT_002.class

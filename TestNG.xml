@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="nmims-automation"> 
+
+	<listeners>
+	<listener class-name="com.nmims.utilities.Reporting"/>
+	</listeners>
+
+<test name="logintest">
+	<parameter name="browsers" value="chrome" />
+	<classes> 
+		<!--  <class name="com.nmims.TestCases.TC_001_Login"/> -->
+			<class name="com.nmims.TestCases.TC_LoginDDT_002"/>
+	</classes>
+</test>
+</suite>
+
